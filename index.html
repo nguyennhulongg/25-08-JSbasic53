@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        function check(string) {
+            var x  = string.indexOf("a");
+            var y  = string.indexOf("b");
+            var z  = string.substring(x, y).length
+            if (z == 4) {
+                return true;
+            } else {
+                return false;
+            }
+            
+        }
+
+        console.log(check("toi la bao"));        
+        console.log(check("Chainsbreak"));
+        console.log(check("pane borrowed"));
+        console.log(check("abCheck"));
+    </script>
+</body>
+</html>
